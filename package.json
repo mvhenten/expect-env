@@ -2,15 +2,11 @@
   "devDependencies": {
     "@biomejs/biome": "^2.1.4",
     "@types/node": "^24.2.1",
-    "conventional-changelog-eslint": "^6.0.0",
     "semantic-release": "^24.2.7",
     "typescript": "^5.9.2"
   },
   "name": "expect-env",
   "description": "Expect that an env variable exists",
-  "release": {
-    "preset": "eslint"
-  },
   "type": "module",
   "version": "1.0.0",
   "main": "dist/index.js",
