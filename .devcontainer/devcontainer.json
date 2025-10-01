@@ -2,5 +2,5 @@
 {
   "name": "Node.js 22 Codespace",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
-  "postCreateCommand": "npm ci"
+  "postCreateCommand": "npm ci && git config --global core.hooksPath /dev/null"
 }
