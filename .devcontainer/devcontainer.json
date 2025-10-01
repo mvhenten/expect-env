@@ -1,0 +1,6 @@
+// See https://aka.ms/devcontainer for more information.
+{
+  "name": "Node.js 22 Codespace",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "npm ci"
+}
