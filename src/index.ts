@@ -4,8 +4,10 @@ export const env = new Proxy<Record<string, string>>(
 	process.env as unknown as Record<string, string>,
 	{
 		get(target, prop: string): string {
-			if (!target[prop]) throw new Error(`process.env.${prop} is not set!`);
-			return target[prop];
+			const value = target[prop];
+			if (value === undefined)
+				throw new Error(`process.env.${prop} is not set!`);
+			return value;
 		},
 	},
 );
