@@ -17,6 +17,14 @@
     "prepare": "tsc",
     "test": "node --test dist/*.test.js"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvhenten/expect-env.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mvhenten/expect-env/issues"
+  },
+  "homepage": "https://github.com/mvhenten/expect-env#readme",
+  "author": "Matthijs van Henten <matthijs@ischen.nl>",
+  "license": "MIT"
 }
